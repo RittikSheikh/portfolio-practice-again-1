@@ -36,3 +36,29 @@ h1{
 .first-banner-img img{
     width: 80%;
 }
+
+#middle-section{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.middle-img{
+    width: 50%;
+}
+.middle-img img{
+    width: 80%;
+    padding-left: 5%;
+}
+.middle-description{
+    width: 50%;
+    padding-right: 8%;
+}
+.resume{
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 10px;
+}
