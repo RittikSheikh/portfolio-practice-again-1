@@ -36,12 +36,16 @@ h1{
 .first-banner-img img{
     width: 80%;
 }
+section{
+    margin-bottom: 150px;
+}
 
 #middle-section{
     display: flex;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+
 }
 .middle-img{
     width: 50%;
@@ -62,3 +66,34 @@ h1{
     padding: 10px 40px;
     border-radius: 10px;
 }
+#experience-mama{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+ .dibba-mama{
+    display: flex;
+ }
+ .dibba-mama div{
+    margin: 0 5%;
+ }
+ .ex-one{
+    width: 40%;
+    padding: 10px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    border-left: 7px solid orange;
+ }
+ .ex-two{
+    width: 40%;
+    padding: 10px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    border-left: 7px solid orangered;
+ }
+ footer{
+    background-color: black;
+    color: white;
+   text-align: center;
+ }
+ 
