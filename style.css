@@ -2,3 +2,37 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
+#first-banner{
+    display: flex;
+    margin-bottom: 150px;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 40px;
+}
+.nam-color{
+    color: orange;
+}
+.hire-me{
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+.first-banner-description{
+    width: 50%;
+    padding-left: 6%;
+    margin-top: 50px;
+}
+.first-banner-img{
+    width: 50%;
+    padding-left: 6%;
+    margin-top: 50px;
+
+}
+.first-banner-img img{
+    width: 80%;
+}
